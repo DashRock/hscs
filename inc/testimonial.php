@@ -25,7 +25,7 @@
 		
 		
 
-		$query = "INSERT INTO testimonials(name, email, treatment, message) VALUES('$name', '$email', '$treatment', '$message')";
+		$query = "INSERT INTO yourtable(name, email, treatment, message) VALUES('$name', '$email', '$treatment', '$message')";
 
 		if(mysqli_query($conn, $query)){
 		    $name ='';

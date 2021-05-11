@@ -24,7 +24,7 @@ $conn = mysqli_connect('localhost', 'root', 'password', 'dbase name');
                $msgClass = 'alert-danger';
           } else {
 
-          $query = "INSERT INTO testimonials(name, email, treatment, message) VALUES('$name, $email, $treatment, $message')";
+          $query = "INSERT INTO yourtable(name, email, treatment, message) VALUES('$name, $email, $treatment, $message')";
               // Passed
               // Recipient Email
               $toEmail = 'your email address';

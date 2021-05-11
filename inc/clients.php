@@ -17,7 +17,7 @@
 
 
 	// Create Query
-	$query = 'SELECT * FROM testimonials ORDER BY RAND() LIMIT 0, 4 ';
+	$query = 'SELECT * FROM yourtable ORDER BY RAND() LIMIT 0, 4 ';
 
 	// Get Result
 	$result = mysqli_query($conn, $query);

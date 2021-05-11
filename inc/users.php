@@ -6,7 +6,7 @@ $DB_NAME = 'database name';
 $DB_PASS = 'password';
 
 
-$query = "SELECT name, email, treatment, message FROM 'testimonials';
+$query = "SELECT name, email, treatment, message FROM 'yourtable';
 
 // Get Result
 $result = mysqli_query($conn, $query);
